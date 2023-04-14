@@ -1,0 +1,114 @@
+.footer{
+    margin-top: 120px;
+    background-image: url('/public/img/footer-Bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 725px;
+}
+
+.footer-logo{
+    width: 484px;
+    height: 41px;
+}
+
+.footer a, .footer p {
+    font-size: 15px;
+    color: #777777;
+}
+
+.footer a{
+    margin-bottom: 21px;
+}
+
+.footer h3{
+    font-size: 18px;
+}
+
+.footer-info{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 180px;
+}
+
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info{
+    display: flex;
+}
+
+.contact-info p {
+    margin-left: 20px;
+}
+
+.social-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.address-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    gap: 24px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.facebook{
+    background: transparent linear-gradient(45deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+}
+
+.skype{
+    background: transparent linear-gradient(23deg, #00B56C 0%, #1DBE75 22%, #68D58C 68%, #9EE69D 100%) 0% 0% no-repeat padding-box;
+}
+
+.linkedin{
+    background: transparent linear-gradient(90deg, #FF9AB6 0%, #F03295 99%, #F03295 100%) 0% 0% no-repeat padding-box;
+}
+
+.instagram{
+    background: transparent linear-gradient(47deg, #F09376 0%, #F0DB79 100%) 0% 0% no-repeat padding-box;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: 825px;
+    }
+
+    .footer-info {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        margin-bottom: 0;
+        gap: 50px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footer-info p, .footer-info a {
+        font-size: 20px;
+    }
+
+    .footer-info h3 {
+        font-size: 25px;
+    }
+}
